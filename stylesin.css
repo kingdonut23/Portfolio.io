@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://www.psdgraphics.com/file/crumpled-paper-texture.jpg");
+}
+
+
+img {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    padding: 100px;
+}
+
+section {
+    margin: 100px ;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+li {
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 75px;
+    }
+    section {
+        margin: 75px ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+    section {
+        margin: 50px ;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 25px;
+    }
+    section {
+        margin: 25px ;
+    }
+}
